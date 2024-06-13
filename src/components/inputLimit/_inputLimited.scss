@@ -1,0 +1,29 @@
+.limited-wrapper {
+  position: relative;
+
+  .limited-container-text {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    font-size: 13px;
+    width: 75px;
+    height: 25px;
+    background: rgb(4, 4, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .limited-text {
+      color: #ffffff;
+
+      .limited-text-count {
+        font-weight: bold;
+      }
+
+      .limited-text-error {
+        color: red
+      }
+    }
+  }
+
+}
