@@ -11,7 +11,7 @@ function App() {
   return (
     <FormProvider {...methods}>
       <form onSubmit={methods.handleSubmit(onSubmit)}>
-        <InputLimited maxLength={10} value='' name='firtName'>
+        <InputLimited maxLength={10} name='firtName'>
           <input type="text"  {...register('firtName')} />
         </InputLimited>
         <button type="submit">Submit</button>
